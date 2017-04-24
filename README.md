@@ -6,4 +6,10 @@ Some notes about this application
   - It uses the Bootstrap gem, not the CDN
   - Some of the code may have been overwritten, as the creation progresses
 
+To get started:
+
+1) bundle install
+2) rails db:migrate
+3) rails db:seed
+
   
