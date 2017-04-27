@@ -1,5 +1,13 @@
-<h1><%= @destination.city %>, <%= @destination.country %></h1>
+<p id="notice"><%#= notice %></p>
+<% if notice != nil %>
+  <p id="notice" class="alert alert-success" role="alert">
+    <%= notice %>
+  </p>
+<% end %>
 
+<h1><%= @destination.city %>, <%= @destination.country %></h1>
+<%= image_tag @destination.avatar.url %>
+<h4>Population <%= @destination.population %></h4>
 <p> <%= @destination.description %></p>
 
 <div class="btn-group">
