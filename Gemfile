@@ -11,6 +11,8 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
-gem 'sdoc',          group: :doc
+gem "paperclip"
 
-gem 'spring',        group: :development
+gem 'sdoc',    group: :doc
+
+gem 'spring',  group: :development
