@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+destinations = Destination.create([
+  {city: 'Santiago', country: 'Chile', description: 'The capital of Chile 
+    and the gateway to its mountains, glaciers and desert.'},
+  {city: 'Vancouver', country: 'Canada', description: 'Welcome to a 
+    near Paradise!'},
+  {city: 'Moscow', country: 'Russia', description: 'Cold winters and cold shoulders!'}])
