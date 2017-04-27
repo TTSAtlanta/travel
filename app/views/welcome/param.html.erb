@@ -1,0 +1,12 @@
+<style>
+  body {
+    background: <%= @color %>;
+  }
+</style>
+
+<h1>Playing with Params</h1>
+<p>The links below pass a color param to set the background color.</p>
+<br>
+
+<%= link_to "Blue", param_path(color: 'blue'), class: "btn btn-primary" %>
+<%= link_to "Red", param_path(color: 'red'), class: "btn btn-danger" %>
