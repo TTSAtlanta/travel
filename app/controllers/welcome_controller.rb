@@ -7,7 +7,7 @@ class WelcomeController < ApplicationController
   end
 
   def param
-    @color = params[:color]
+    params[:color] == nil ? @color = 'orange' : @color = params[:color]   
   end
   
 end
